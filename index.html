@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jhonxis | Contato</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     body {
       margin: 0;
@@ -17,8 +18,16 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 20px;
+    }
+    img.profile {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
     }
     h1 {
       font-family: 'Orbitron', sans-serif;
@@ -32,7 +41,10 @@
       margin-bottom: 30px;
     }
     a.button {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       background: rgba(123, 44, 191, 0.9);
       color: white;
       text-decoration: none;
@@ -53,15 +65,23 @@
       font-size: 0.8rem;
       color: #aaa;
     }
+    i {
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 <body>
-  <div>
-    <h1>Jhonxis</h1>
-    <p class="bio">Editor de vídeos gamer | Dicas insanas de CoD Mobile</p>
+  <img class="profile" src="jhonxis-profile.png" alt="Jhonxis">
+  <h1>Jhonxis</h1>
+  <p class="bio">Editor de vídeos gamer | Dicas insanas de CoD Mobile</p>
 
-    <a class="button" href="https://www.instagram.com/jhon_.six" target="_blank">Instagram</a>
-    <a class="button" href="https://www.tiktok.com/@jhon_.six" target="_blank">TikTok</a>
-    <a class="button" href="https://www.threads.net/@jhon_.six" target="_blank">Threads</a>
-    <a class="button" href="https://x.com/jhonsix1042934" target="_blank">Twitter / X</a>
-    <a class="button" href="https://discord.com/users/
+  <a class="button" href="https://www.instagram.com/jhon_.six" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+  <a class="button" href="https://www.tiktok.com/@jhon_.six" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+  <a class="button" href="https://www.threads.net/@jhon_.six" target="_blank"><i class="fab fa-threads"></i> Threads</a>
+  <a class="button" href="https://x.com/jhonsix1042934" target="_blank"><i class="fab fa-twitter"></i> Twitter / X</a>
+  <a class="button" href="https://discord.com/users/huangzito" target="_blank"><i class="fab fa-discord"></i> Discord: huangzito</a>
+  <a class="button" href="https://tr.ee/3bplYQizYx" target="_blank"><i class="fas fa-link"></i> Linktree antigo</a>
+
+  <footer>Feito com estilo por Jhonxis © 2025</footer>
+</body>
+</html>
